@@ -1,0 +1,46 @@
+.header {
+  background-color: var(--button);
+  margin-top: 32px;
+}
+
+.header-portfolio {
+  background-color: var(--button);
+  margin-bottom: 132px;
+  margin-top: 24px;
+}
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.mail-item {
+  margin-right: 50px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.logo-web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-cl);
+}
+
+.link {
+  color: inherit;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+.active {
+  color: var(--accent-cl);
+}

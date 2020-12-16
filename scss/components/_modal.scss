@@ -1,0 +1,116 @@
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  color: var(--black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0px;
+  transform: translate(-50%, -50%);
+  min-width: 528px;
+  min-height: 581px;
+  background-color: var(--button);
+  border: 1px solid var(--button);
+}
+
+.heading-modal {
+  width: 488px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+.forms {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.modal-logo-svg {
+  margin-top: -25px;
+  margin-left: 15px;
+  display: flex;
+  width: 12px;
+  height: 12px;
+  fill: var(--black);
+}
+.form-fild:hover .modal-logo-svg,
+.form-fild:focus .modal-logo-svg {
+  fill: var(--accent-cl);
+}
+.form-item:hover {
+  border-color: var(--accent-cl);
+}
+.form-item-text {
+  padding-left: 42px;
+}
+.form-item-text-placeholder {
+  padding-left: 16px;
+}
+
+.form-fild {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.form-fild input {
+  border: 1px solid var(--gray);
+  width: 488px;
+  height: 40px;
+}
+
+.form-fild label {
+  margin-bottom: 4px;
+}
+.policy {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+  margin-bottom: 30px;
+}
+
+.form-fild textarea::placeholder {
+  text-align: left 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: var(--gray);
+}
+
+.contract {
+  color: var(--accent-cl);
+  text-decoration: underline;
+}
+
+textarea {
+  border: 1px solid var(--gray);
+  width: 488px;
+  height: 128px;
+  resize: none;
+}

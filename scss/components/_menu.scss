@@ -1,0 +1,50 @@
+.menu {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-logo {
+  margin-left: 93px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.menu-item {
+  margin-top: 28px;
+}
+.active-page {
+  padding-bottom: 0;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.active-page::after {
+  content: '';
+  display: block;
+  position: relative;
+  margin-top: 28px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-cl);
+  border-radius: 2px;
+}
+
+.mail-tel-svg {
+  fill: var(--gray);
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+
+.mail {
+  text-align: center;
+}
+
+.menu-item:hover .mail-tel-svg,
+.menu-item:focus .mail-tel-svg {
+  fill: var(--accent-cl);
+}
