@@ -643,7 +643,7 @@ textarea {
   padding-top: 94px;
   padding-bottom: 94px;
   font-family: Roboto;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -665,10 +665,12 @@ textarea {
 .text {
   margin-right: 30px;
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--gray);
+  color: var(--menu);
 }
 
 .text-item :not(:last-child) {
