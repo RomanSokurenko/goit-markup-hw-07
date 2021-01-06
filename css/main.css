@@ -6,6 +6,7 @@
   --button: #ffffff;
   --background: #f5f4fa;
   --email: rgba(255, 255, 255, 0.6);
+  --menu: #757575;
 }
 
 @font-face {
@@ -85,7 +86,7 @@ a {
 }
 
 .menu-item {
-  margin-top: 28px;
+  margin-top: 29px;
 }
 
 .active-page {
@@ -109,11 +110,19 @@ a {
   border-radius: 2px;
 }
 
+.active {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .mail-tel-svg {
   fill: var(--gray);
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
+  width: 20px;
+  height: 16px;
 }
 
 .mail {
@@ -432,7 +441,6 @@ textarea {
 
 .header {
   background-color: var(--button);
-  margin-top: 32px;
 }
 
 .header-portfolio {
@@ -575,7 +583,7 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--gray);
+  color: var(--menu);
 }
 
 .tel:hover {
@@ -587,7 +595,7 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--gray);
+  color: var(--menu);
 }
 
 .mail:hover {
@@ -595,6 +603,8 @@ textarea {
 }
 
 .hero {
+  margin-left: 452px;
+  margin-right: 452px;
   width: 696px;
   height: 120px;
   margin-top: 200px;
@@ -610,6 +620,9 @@ textarea {
 }
 
 .section-hero {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.5)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: 1600px 600px;
@@ -668,6 +681,7 @@ textarea {
 }
 
 .vector-logo-item {
+  background-color: var(--background);
   margin-right: 30px;
   margin-bottom: 30px;
   width: 270px;

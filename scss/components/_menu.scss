@@ -12,7 +12,7 @@
   margin-right: 50px;
 }
 .menu-item {
-  margin-top: 28px;
+  margin-top: 29px;
 }
 .active-page {
   padding-bottom: 0;
@@ -24,6 +24,7 @@
 }
 .active-page::after {
   content: '';
+
   display: block;
   position: relative;
   margin-top: 28px;
@@ -32,12 +33,19 @@
   background-color: var(--accent-cl);
   border-radius: 2px;
 }
+.active {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 
 .mail-tel-svg {
   fill: var(--gray);
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
+  width: 20px;
+  height: 16px;
 }
 
 .mail {
