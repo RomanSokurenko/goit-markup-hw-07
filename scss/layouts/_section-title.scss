@@ -1,5 +1,5 @@
 .section-title {
-  font-family: Robotosans-serif;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -84,11 +84,14 @@
 
 .tabl-item {
   display: block;
-  width: 100%;
+  width: 370px;
   height: auto;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 9 - 30px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .tabl-item:hover {
