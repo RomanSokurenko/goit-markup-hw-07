@@ -66,6 +66,10 @@
   display: inline-block;
 }
 .address {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   width: 231px;
   height: 21px;
   padding: 0px;
@@ -83,8 +87,10 @@
 
 .tel {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--menu);
 }
@@ -93,8 +99,10 @@
 }
 .mail {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--menu);
 }
