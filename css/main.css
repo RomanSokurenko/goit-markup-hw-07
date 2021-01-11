@@ -1,5 +1,5 @@
 :root {
-  --main-text-cl: #555555;
+  --main-text-cl: rgba(255, 255, 255, 0.1);
   --accent-cl: #2196f3;
   --black: #303030;
   --gray: #9da4bb;
@@ -232,6 +232,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--button);
   border: 1px solid var(--gray);
+  border-radius: 4px;
 }
 
 .button-subscription-svg {
@@ -530,7 +531,7 @@ textarea {
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  background-color: var(--black);
+  background-color: var(--footer);
   color: var(--email);
   border: 1px solid var(--gray);
 }
