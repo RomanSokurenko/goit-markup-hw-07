@@ -769,6 +769,7 @@ textarea {
 }
 
 .team-item {
+  background: #ffffff;
   width: 270px;
   height: 428px;
   margin-top: 30px;
