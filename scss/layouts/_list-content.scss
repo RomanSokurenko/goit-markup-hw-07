@@ -30,6 +30,7 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--menu);
+  text-transform: none;
 }
 .text-item :not(:last-child) {
   margin-right: 30px;
