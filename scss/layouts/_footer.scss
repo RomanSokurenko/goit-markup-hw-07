@@ -88,11 +88,10 @@
 
 .tel {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--menu);
 }
 .tel:hover,
@@ -101,11 +100,10 @@
 }
 .mail {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--menu);
 }
 .mail:hover {
