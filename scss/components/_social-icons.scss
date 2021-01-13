@@ -27,7 +27,8 @@
 .social-icons-link:focus .social-icons-svg {
   fill: var(--button);
 }
-.social-icons-link:hover {
+.social-icons-link:hover,
+.social-icons-link:focus {
   background-color: var(--accent-cl);
 }
 
