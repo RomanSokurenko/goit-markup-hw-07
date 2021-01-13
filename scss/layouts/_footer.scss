@@ -81,7 +81,8 @@
   margin-top: 9px;
 }
 .connection .tel {
-  padding-bottom: 60px;
+  margin-bottom: 60px;
+  // padding-bottom: 60px;
   display: inline-block;
 }
 
@@ -94,7 +95,8 @@
   letter-spacing: 0.03em;
   color: var(--menu);
 }
-.tel:hover {
+.tel:hover,
+.tel:focus {
   color: var(--accent-cl);
 }
 .mail {

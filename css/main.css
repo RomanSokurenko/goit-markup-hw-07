@@ -587,7 +587,7 @@ textarea {
 }
 
 .connection .tel {
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   display: inline-block;
 }
 
@@ -601,7 +601,8 @@ textarea {
   color: var(--menu);
 }
 
-.tel:hover {
+.tel:hover,
+.tel:focus {
   color: var(--accent-cl);
 }
 
