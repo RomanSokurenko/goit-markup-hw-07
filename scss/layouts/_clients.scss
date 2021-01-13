@@ -70,6 +70,7 @@
 .clients-item:focus .clients-icons-svg {
   fill: var(--accent-cl);
 }
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
   border-color: var(--accent-cl);
 }
