@@ -9,7 +9,7 @@
 .hero {
   max-width: 1600px;
   margin: 0 auto;
-  background-color: tomato;
+
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -50,7 +50,7 @@
 
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color: var(--accent-cl);
     cursor: pointer;
   }
 }
@@ -93,21 +93,21 @@
   width: 30px;
   height: 30px;
 
-  background-color: darkkhaki;
+  background-color: var(--button);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    fill: #188ce8;
+    fill: var(--accent-cl);
     cursor: pointer;
   }
 }
 .btn-closed {
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
