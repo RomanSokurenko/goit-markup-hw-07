@@ -15,7 +15,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/hero-image.jpg);
+    url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,7 +28,7 @@
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: green;
+  color: var(--button);
 }
 .hero-button {
   display: inline-block;
@@ -45,8 +45,8 @@
   line-height: 1.87em;
   letter-spacing: 0.06em;
 
-  background: turquoise;
-  color: gray;
+  background: var(--accent-cl);
+  color: var(--button);
 
   &:hover,
   &:focus {
@@ -78,7 +78,7 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
 
   transform: translate(-50%, -50%);
-  background-color: blue;
+  background-color: var(--button);
 }
 .is-hidden {
   visibility: hidden;

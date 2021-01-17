@@ -106,7 +106,7 @@
 }
 .agreement a {
   text-decoration-line: underline;
-  color: gray;
+  color: var(--accent-cl);
 }
 .modal-button {
   width: 200px;
@@ -119,8 +119,8 @@
   line-height: 1.87;
   border: none;
   border-radius: 4px;
-  color: hotpink;
-  background-color: forestgreen;
+  color: var(--button);
+  background-color: var(--accent-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
