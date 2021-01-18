@@ -209,7 +209,7 @@ a {
 .button-subscription {
   width: 200px;
   height: 50px;
-  margin-top: 96px;
+  margin-top: 95px;
   margin-left: 12px;
   padding-left: 29px;
   background-color: var(--accent-cl);
@@ -238,6 +238,11 @@ a {
 
 .block-test {
   display: flex;
+  align-items: baseline;
+}
+
+.qwer {
+  display: block;
 }
 
 .social-icons {
