@@ -1,0 +1,78 @@
+.get-us,
+.subscribe-web-studio {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: $main-font, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: $hero-text-color;
+}
+.footer-mail {
+  display: flex;
+  align-items: center;
+}
+.input-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 12px;
+
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: $address-contacts-link-color;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: $hero-background-color;
+}
+
+.input-subscribe::placeholder {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: $address-contacts-link-color;
+}
+.btn-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  height: 50px;
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 16px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+
+  background: $accent-text-color;
+  color: $hero-text-color;
+}
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+.icon-send {
+  margin-left: 10px;
+}

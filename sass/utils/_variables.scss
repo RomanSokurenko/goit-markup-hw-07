@@ -1,12 +1,19 @@
-:root {
-  --main-text-cl: rgba(255, 255, 255, 0.1);
-  --accent-cl: #2196f3;
-  --black: #303030;
-  --gray: #9da4bb;
-  --button: #ffffff;
-  --background: #f5f4fa;
-  --email: rgba(255, 255, 255, 0.6);
-  --menu: #757575;
-  --footer: #2f303a;
-  --text-shadow: rgba(0, 0, 0, 0.25);
-}
+
+    // Color
+    $title-text-color:#212121;
+    $primary-text-color:#757575;
+    $hero-text-color:#ffffff;
+    $accent-text-color:#2196F3;
+    $studio-header-color:#000000;
+    $hero-background-color:#2F303A;   
+    $team-background-color:#F5F4FA;
+    $address-contacts-link-color:rgba(255, 255, 255, 0.6);
+    $text-shadow: rgba(0, 0, 0, 0.25);
+    $cards-border-color:#EEEEEE;
+    $project-border-color: #ececec;
+    $social-icon-color:#afb1b8;
+    $color-svg: currentColor;
+
+    //  Fonts
+    $logo-font: "Raleway";
+    $main-font: "Roboto";

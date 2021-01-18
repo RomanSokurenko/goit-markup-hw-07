@@ -1,0 +1,99 @@
+footer {
+  display: flex;
+  background: $hero-background-color;
+}
+.adress-container {
+  margin-right: 70px;
+}
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+
+  color: $accent-text-color;
+  font-family: $logo-font, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+.studio-footer {
+  color: $hero-text-color;
+}
+.address-contacts {
+  p {
+    display: block;
+    margin-bottom: 9px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+
+    color: $hero-text-color;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 9px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    color: $address-contacts-link-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  a:last-child {
+    margin-bottom: 0px;
+  }
+  a:hover,
+  a:focus {
+    color: $accent-text-color;
+  }
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  width: 1200px;
+  padding: 60px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.socials-container-footer {
+  margin-right: 93px;
+}
+.socials-list-footer {
+  display: flex;
+  li {
+    margin-right: 10px;
+  }
+  li:last-child {
+    margin-right: 0px;
+  }
+}
+.socials-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $hero-text-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-text-color;
+    color: $hero-text-color;
+  }
+}
+.socials-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: $color-svg;
+}

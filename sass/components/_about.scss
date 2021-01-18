@@ -1,0 +1,58 @@
+.about {
+  display: flex;
+  justify-content: center;
+
+  h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-text-color;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+  }
+}
+.container-about {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 94px 15px;
+}
+.advantages-list {
+  display: flex;
+  justify-content: center;
+}
+.advantages-item {
+  margin-right: 30px;
+  width: 270px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  h3 {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.advantegas-item-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: $team-background-color;
+}
+.advantegas-icon {
+  max-width: 70px;
+  height: 70px;
+  background-position: center;
+}

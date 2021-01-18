@@ -1,14 +1,15 @@
-@import './utils/variables';
-@import './base/fonts';
-@import './base/common';
-@import './components/menu';
-@import './components/buttons';
-@import './components/social-icons';
-@import './components/modal';
-@import './layouts/header';
-@import './layouts/footer';
-@import './layouts/hero';
-@import './layouts/list-content';
-@import './layouts/job';
-@import './layouts/clients';
-@import './layouts/section-title';
+@import "../sass/utils/variables";
+@import "../sass/base/base";
+
+@import "../sass/components/header";
+@import "../sass/components/hero";
+@import "../sass/components/modal-form";
+@import "../sass/components/about";
+@import "../sass/components/activity";
+@import "../sass/components/team";
+@import "../sass/components/client";
+@import "../sass/components/footer";
+@import "../sass/components/subscribe";
+
+@import ".././sass/components/portfolio/portfolio";
+@import ".././sass/components/portfolio/project-cards";
