@@ -8,6 +8,7 @@
   --email: rgba(255, 255, 255, 0.6);
   --menu: #757575;
   --footer: #2f303a;
+  --text-shadow: rgba(0, 0, 0, 0.25);
 }
 
 @font-face {
@@ -189,7 +190,7 @@ a {
 .button {
   font-family: Roboto;
   font-weight: 500;
-  border: 1px solid var(--black);
+  border: 1px solid var(--button);
   border-radius: 4px;
   font-size: 16px;
   line-height: 1.62;
@@ -198,21 +199,11 @@ a {
   color: var(--black);
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   color: var(--button);
   background: var(--accent-cl);
-}
-
-.button-item {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 126px;
-}
-
-.button-margin {
-  margin-right: 8px;
-  border-color: #ffffff;
+  cursor: pointer;
 }
 
 .button-subscription {
@@ -460,6 +451,7 @@ a {
 
 .header {
   background-color: var(--button);
+  border: 1px solid #ececec;
 }
 
 .header-portfolio {
@@ -998,6 +990,50 @@ a {
   margin-bottom: 4px;
 }
 
+.container-project {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 34px;
+}
+
+.list-btn-project {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.list-btn-project li {
+  margin-right: 8px;
+}
+
+.list-btn-project li:last-child {
+  margin-right: 0px;
+}
+
+.btn-project {
+  border: 0;
+  border-radius: 5px;
+  background: var(--background);
+  color: var(--black);
+  padding: 6px 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, filter;
+}
+
+.btn-project:hover, .btn-project:focus {
+  color: var(--button);
+  background-color: var(--accent-cl);
+  filter: drop-shadow(0px 4px 4px var(--text-shadow));
+}
+
 .section-title-p {
   font-family: Roboto;
   font-size: 16px;
@@ -1085,7 +1121,8 @@ a {
   box-sizing: border-box;
 }
 
-.tabl-item:hover {
+.tabl-item:hover,
+.tabl-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*# sourceMappingURL=main.css.map */
